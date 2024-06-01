@@ -214,31 +214,31 @@
         <div class="contact">
             <div class="contact__info">
                 <h3 class="contact__info-title">Get in touch:</h3>
-                <p class="contact__info-item">Email: simeondaouda@gmail.com</p>
-                <p class="contact__info-item">Phone: +229 90 43 19 56</p>
+                <p class="contact__info-item">Email: <a href="mailto:simeondaouda@gmail">simeondaouda@gmail.com</a></p>
+                <p class="contact__info-item">Phone: <a href="tel:+22990431956">+22990431956</a></p>
                 <div class="contact__social">
                     <a href="#" class="contact__social-link"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="#" class="contact__social-link"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="contact__social-link"><i class="fa-brands fa-twitter"></i></a>
                     <a href="#" class="contact__social-link"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="contact__social-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Simeon013" class="contact__social-link"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div class="contact__illustration">
                 <img src="./assets/illustrations/connect.svg" alt="Group of people connecting with each other"/>
             </div>
-            <form class="contact__form">
+            <form class="contact__form" action="https://formspree.io/f/mqkrvevv" method="post">
                 <div class="contact__field-wrapper">
                     <label for="contactNameTxt">Name:</label>
-                    <input id="contactNameTxt" type="text" placeholder="What's your name?"/>
+                    <input id="contactNameTxt" type="text" placeholder="What's your name?" name="name"/>
                 </div>
                 <div class="contact__field-wrapper">
                     <label for="contactNameTxt">Adress:</label>
-                    <input id="contactEmailTxt" type="text" placeholder="What's your email?"/>
+                    <input id="contactEmailTxt" type="text" placeholder="What's your email?" name="email" required/>
                 </div>
                 <div class="contact__field-wrapper">
                     <label for="contactMessageTxt">Message:</label>
-                    <textarea id="contactMessageTxt" placeholder="Your message"></textarea>
+                    <textarea id="contactMessageTxt" placeholder="Your message" name="message"></textarea>
                 </div>
     
                 <button type="submit" class="contact__submit-btn">Submit</button>
@@ -249,7 +249,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        Developed by <a href="https://github.com" target="_blank" class="footer__link">Siméon DAOUDA</a>
+        Developed by <a href="https://github.com/Simeon013" target="_blank" class="footer__link">Siméon DAOUDA</a>
         <!-- Template made with ❤️ by <a href="https://github.com/Finestproject" target="_blank" class="footer__link">Kapitan Heneral</a> -->
     </footer>
 </main>

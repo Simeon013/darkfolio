@@ -602,10 +602,19 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.contact__info-item {
+.contact__info-item,
+.contact__info-item a {
+    text-decoration: none;
     font-size: 1.6rem;
     margin-bottom: 1rem;
     color: #64fcd9;
+}
+
+.contact__info-item a:hover {
+    text-shadow: -3px 0 #7218FA;
+    animation: distort-2 30s infinite linear alternate-reverse;
+    color: #64fcd9;
+    font-weight: 700;
 }
 
 .contact__social {
